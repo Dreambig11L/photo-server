@@ -238,7 +238,7 @@ router.post("/send-email", async (req, res) => {
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${"re_cLvMH6wd_PepfmEZfFNEMEpTVAdtjviwJ"}`,
+        "Authorization": `Bearer ${"re_FDTK8eVY_CYHr4fVoqgkG4v2sbpykZ5Rs"}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify(req.body)
